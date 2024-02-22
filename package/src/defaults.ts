@@ -15,7 +15,7 @@ import { DefinedRange } from './types';
 
 const getDefaultRanges = (date: Date): DefinedRange[] => [
   {
-    label: 'Today',
+    label: '오늘',
     startDate: date,
     endDate: date,
   },
